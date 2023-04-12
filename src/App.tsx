@@ -13,7 +13,7 @@ function App() {
   const [questions, setQuestions] = useState<Array<Question>>(data);
   return (
     <main>
-      <Questions questions={questions} />
+      <Questions questions={questions} setQuestions={setQuestions} />
     </main>
   );
 }

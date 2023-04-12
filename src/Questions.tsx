@@ -7,6 +7,7 @@ type Question = {
 };
 type Props = {
   questions: Question[];
+  setQuestions: React.Dispatch<React.SetStateAction<Question[]>>;
 };
 
 const Questions = ({ questions }: Props) => {
